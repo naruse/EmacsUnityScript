@@ -1,0 +1,8 @@
+This is an emacs mode  for coloring the Runtime and Editor API calls in Javascript for Unity 3.x
+
+To make it work, just add this to your .emacs:
+;; UnityJS mode for emacs
+(autoload ‘unityjs-mode “unityjs-mode” “Major mode for editing Unity script code.” t)
+(require ‘unityjs-mode)
+
+And make sure to load the path where you are going to store the .el file.
